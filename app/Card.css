@@ -1,0 +1,93 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: auto;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .stars {
+    color: grey;
+    cursor: pointer;
+  }
+  
+  .star {
+    font-size: 40px;
+  }
+  
+  .card-section {
+    margin-bottom: 15px;
+  }
+
+  .card-label {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .section-info{
+    margin: 6px 0;
+    font-size: 13px;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .recommend-section .input-wrapper{
+    width: 60%;
+  }
+  
+  .input-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-wrapper label{
+    padding: 8px 0px;
+    cursor: pointer;
+  }
+
+  .recommend-section span{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+  }
+
+  .m-3{
+    margin-right: 5px;
+    font-size: 40px;
+  }
+
+  .praise-section span{
+    padding: 6px 10px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 15px;
+    border: 2px solid rgb(208, 209, 208);
+    transition: all 0.5s ease;
+  }
+
+  .praise:checked + span{
+    background-color: rgb(133, 255, 133);
+    border: 2px solid rgb(54, 223, 54);
+  }
+
+  .recommend:checked + span{
+    color: rgb(54, 223, 54);
+  }
